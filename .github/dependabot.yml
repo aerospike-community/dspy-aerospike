@@ -23,3 +23,8 @@ updates:
     open-pull-requests-limit: 5
     cooldown:
       default-days: 7
+
+  - package-ecosystem: docker
+    directory: /.github/actions/pypi-publish
+    schedule:
+      interval: weekly
